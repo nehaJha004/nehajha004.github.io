@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4d94a3a8b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <h1 class="logo">Neha <span>Jha</span></h1>
+        <div>
+            <ul id="navbar">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i id="close" class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-bars" onclick="openmenu()"></i>
+        </div>
+    </section>
+    <!---------------------------------HERO----------------------------------->
+    <div id="hero">
+        <div class="hero">
+            <div class="left-hero">
+                <h1>Hello, I'm <span>Neha</span>.</h1>
+                <p>Passionate Web Developer.</p>
+            </div>
+            <div class="right-hero">
+                <img src="neha.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <!------------------------------About-------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hey, I'm a Web Developer!Proficient in front-end technologies like HTML, CSS, and JavaScript, I bring creativity and precision to every project. As a perpetual learner, I stay at the forefront of tech trends, ensuring my creations are always fresh and dynamic. Turning ideas into awesome, user-friendly sites is my passion. Let's make your online dreams a reality! 
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Personal Details</p>
+                        <p class="tab-links" onclick="opentab('experience')">Contact</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Name : </span>Neha Kumari Jha</li>
+                            <li><span>Date of Birth : </span>19th march 2004</li>
+                            <li><span>Age : </span>19</li>
+                            <li><span>Nationality : </span>Indian</li>
+                            <li><span>State : </span>West Bengal</li>
+                            <li><span>City : </span>Kolkata</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Email Id : </span>nehajha00403@gmail.com</li>
+                            <li><span>LinkedIn : </span><a href="https://www.linkedin.com/in/neha-jha-033071289/">Neha Jha</a></li>
+                            <li><span>Instagram : </span><a href="https://www.instagram.com/nehajhaa00/">nehajhaa00</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University : </span>Maulana Abul Kalam Azad University Of Technology</li>
+                            <li><span>Department : </span>Computer Science and Engineering</li>
+                            <li><span>Year/Sem : </span>3rd/6th</li>
+                            <li><span>CGPA : </span>8.76</li>
+                            <li><span>High School : </span>Arya Kanya Mahavidyala</li>
+                        </ul>
+                    </div>
+                    </p>
+                </div>
+            </div>
+    </div>
+    </div>
+     <!------------------------------skills-------------------------------->
+     <div id="skills">
+        <div class="container">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I can make a user-friendly and responsive website with the help of HTML, CSS, and JavaSript.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>I have completed core Java including the concept of array, string, stringbuffer, stringbuilder, classes, objects, the concept of oops and Threads.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>DSA with java</h2>
+                    <p> Proficient in tackling complex challenges, my commitment to DSA empowers me to build robust and scalable solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------Portfolio-------------------------------->
+    <div id="project">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>A Simple and User friendly Weather App using Weather API. It is a Front End website. build by HTML, CSS and JavaScript. rather than that A Weather API has been also used.</p>
+                        <a href="https://github.com/nehaJha004/Weather_App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Todos List</h3>
+                        <p>Introducing my streamlined Todo List project—your ultimate organizer! Seamlessly manage tasks with a clean, intuitive interface. Prioritize, categorize, and tick off completed items effortlessly. This productivity companion ensures a clutter-free schedule, empowering you to conquer goals with ease. Simplify your day, stay focused, and let productivity thrive!</p>
+                        <a href="https://github.com/nehaJha004/TodosList"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Stop Watch</h3>
+                        <p>a sleek and versatile stopwatch designed for precision and simplicity. With a user-friendly interface, this stopwatch offers seamless time tracking for various activities. Whether you're measuring workout intervals or tracking project durations, it's your perfect companion. </p>
+                        <a href="https://github.com/nehaJha004/StopWatch"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/nehaJha004" class="btn">See more</a>
+        </div>
+    </div>
+     <!-----------------------------Services-------------------------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I bring a creative spark to every project. With expertise in HTML, CSS, and JavaScript, I craft visually stunning and functional websites. Dedicated to translating your vision into a digital reality, my skills ensure a tailored and impactful online presence that resonates with your audience.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I channel creativity into building transformative digital solutions. Proficient in diverse coding languages, my skills ensure your app reflects innovation and user-centric design. Let's collaborate to bring your unique ideas to life, delivering seamless, engaging experiences for your audience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+         <!------------------------------Contact-------------------------------->
+         <div id="contact">
+            <div class="container">
+                    <div class="contact-right">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="copyright">CopyWrite &copy; Neha Kumari Jha</div>
+        </div>
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }    
+</script>
+<script>
+    var sidemenu = document.getElementById("navbar");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-300px";
+    }
+</script>
+</html>
