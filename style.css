@@ -320,6 +320,10 @@ form .btn2{
 }
 /*Small Screen Device*/
 @media (max-width:799px) {
+    #header{
+        width: 100%;
+        margin: 20px 0%;
+    }
     #navbar {
         display: flex;
         flex-direction: column;
