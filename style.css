@@ -393,6 +393,13 @@ form .btn2{
         margin-top: 370px;
         margin-bottom: 90px;
     }
+    .tab-contents ul span{
+    font-size: 1rem;
+    }
+    #about .container .row p{
+    font-size: 1rem;
+    margin-top: 10px;
+}
     /*---------------------contact---------------------------*/
     #contact{
         margin: 0px;
