@@ -347,6 +347,9 @@ form .btn2{
         font-size: 24px;
         padding-left: 25px;
     }
+    #header{
+        width: 100%;
+    }
     #close{
         position: absolute;
         top: 30px;
