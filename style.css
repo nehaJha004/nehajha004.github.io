@@ -381,6 +381,7 @@ form .btn2{
         height: 400px;
         width: 300px;
         border-radius: 40px;
+        margin: 30px 0;
     }
     .left-hero{
         padding: 0px;
@@ -391,9 +392,10 @@ form .btn2{
     .left-hero p{
         font-size: 20px;
     }
+    
     /*--------------------------About-------------------------------*/
     #about{
-        margin-top: 370px;
+        margin-top: 300px;
         margin-bottom: 90px;
     }
     .tab-contents ul span{
